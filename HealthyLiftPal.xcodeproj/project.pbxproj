@@ -17,6 +17,11 @@
 		1C6FB18E29574BFA007C2093 /* HealthyLiftPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB18D29574BFA007C2093 /* HealthyLiftPalTests.swift */; };
 		1C6FB19829574BFA007C2093 /* HealthyLiftPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB19729574BFA007C2093 /* HealthyLiftPalUITests.swift */; };
 		1C6FB19A29574BFA007C2093 /* HealthyLiftPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB19929574BFA007C2093 /* HealthyLiftPalUITestsLaunchTests.swift */; };
+		1C6FB1A729574CAE007C2093 /* BigCellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB1A629574CAE007C2093 /* BigCellsView.swift */; };
+		1C6FB1A929574D26007C2093 /* BigCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB1A829574D26007C2093 /* BigCell.swift */; };
+		1C6FB1AB295751E7007C2093 /* DietResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB1AA295751E7007C2093 /* DietResponse.swift */; };
+		1C6FB1AD295759EC007C2093 /* InfoBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB1AC295759EC007C2093 /* InfoBoxView.swift */; };
+		1C6FB1AF29575ADA007C2093 /* InfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FB1AE29575ADA007C2093 /* InfoResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		1C6FB19329574BFA007C2093 /* HealthyLiftPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyLiftPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6FB19729574BFA007C2093 /* HealthyLiftPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLiftPalUITests.swift; sourceTree = "<group>"; };
 		1C6FB19929574BFA007C2093 /* HealthyLiftPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLiftPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C6FB1A629574CAE007C2093 /* BigCellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCellsView.swift; sourceTree = "<group>"; };
+		1C6FB1A829574D26007C2093 /* BigCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCell.swift; sourceTree = "<group>"; };
+		1C6FB1AA295751E7007C2093 /* DietResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietResponse.swift; sourceTree = "<group>"; };
+		1C6FB1AC295759EC007C2093 /* InfoBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBoxView.swift; sourceTree = "<group>"; };
+		1C6FB1AE29575ADA007C2093 /* InfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				1C6FB18129574BFA007C2093 /* LaunchScreen.storyboard */,
 				1C6FB18429574BFA007C2093 /* Info.plist */,
 				1C6FB17C29574BF8007C2093 /* HealthyLiftPal.xcdatamodeld */,
+				1C6FB1A629574CAE007C2093 /* BigCellsView.swift */,
+				1C6FB1AC295759EC007C2093 /* InfoBoxView.swift */,
+				1C6FB1A829574D26007C2093 /* BigCell.swift */,
+				1C6FB1AA295751E7007C2093 /* DietResponse.swift */,
+				1C6FB1AE29575ADA007C2093 /* InfoResponse.swift */,
 			);
 			path = HealthyLiftPal;
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6FB1A929574D26007C2093 /* BigCell.swift in Sources */,
 				1C6FB17829574BF7007C2093 /* ViewController.swift in Sources */,
+				1C6FB1AB295751E7007C2093 /* DietResponse.swift in Sources */,
 				1C6FB17429574BF7007C2093 /* AppDelegate.swift in Sources */,
+				1C6FB1AD295759EC007C2093 /* InfoBoxView.swift in Sources */,
 				1C6FB17E29574BF8007C2093 /* HealthyLiftPal.xcdatamodeld in Sources */,
 				1C6FB17629574BF7007C2093 /* SceneDelegate.swift in Sources */,
+				1C6FB1A729574CAE007C2093 /* BigCellsView.swift in Sources */,
+				1C6FB1AF29575ADA007C2093 /* InfoResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
